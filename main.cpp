@@ -82,4 +82,16 @@ switch (caso) {  //sentecia switch y condicional caso.
               cout<<"2.opcion2"<<endl;
               cout<<"3.opcion3"<<endl;
               cin>>a;
-        
+            switch(a){
+              	case 1:
+              		cout<<1;
+              		break;
+              	case 2:
+              	    cout<<2;
+              	    break;
+              	case 3:
+              	    cout<<3;
+              	 break;
+			  
+			  default:
+			  	cout<<"numero incorrecto";
