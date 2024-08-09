@@ -40,3 +40,27 @@ int main() {   // Función principal
     lista[2].username =  "arturo";
     lista[2].password =  "135";
 
+switch (caso) {  //sentecia switch y condicional caso.
+        case 1: {
+        registrarUsuario();
+        int usu;
+        cout << "\n1. alumno" << endl;
+        cout << "\n2. docente" << endl;
+        cout << "\n3. admin" << endl;
+        cout << "Ingrese una opcion (1,2 o 3): ";
+        cin >> usu;
+    
+     if ( usu==1){   //condicional if, else if.
+              cout<<" \n!Bienvenido Alumno!"<<endl;
+		}else {
+		if(usu==2){	
+	        cout<<" \n!Bienvenido Docente!"<<endl;
+		}else {
+		if(usu==3){
+		cout<<" \n!Bienvenido Administrador!"<<endl;
+	}
+      }
+     }
+    }
+          break;
+        
