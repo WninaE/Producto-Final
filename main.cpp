@@ -124,3 +124,38 @@ switch (caso) {  //sentecia switch y condicional caso.
 			  	break;
 	       }
            }
+if ((lista[2].username== username) ){
+            	cout<<"\nEs correcto";
+            	cout << "\nInicio de sesion exitoso." << endl;
+            
+			  int c;
+              cout<<" \n!Bienvenido Administrador!"<<endl;
+              cout<<"1.opcion"<<endl;
+              cout<<"2.opcion"<<endl;
+              cout<<"3.opcion"<<endl;
+              cin>>c;
+          
+              switch(c){
+              	case 1:
+              		cout<<1;
+              		break;
+              	case 2:
+              	    cout<<2;
+              	    break;
+              	case 3:
+              	    cout<<3;
+              	 break;
+			  
+			  default:
+			  	cout<<"numero incorrecto";
+			  	break;
+         	}	
+            }
+           break;
+        }
+        default:
+            cout << "Opción no valida." << endl;
+            break;
+    }
+    return 0;
+}
