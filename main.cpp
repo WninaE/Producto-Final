@@ -63,4 +63,23 @@ switch (caso) {  //sentecia switch y condicional caso.
      }
     }
           break;
+
+    case 2: {   //caso2, cuando el usuario ya esta almacenado.
+            string username, password;
+
+            cout << "Ingrese el nombre de usuario: ";
+            cin >> username;
+            cout << "Ingrese la contrasena: ";
+            cin >> password;
+            
+            if ((lista[0].username== username) ){
+            	cout<<"\nEs correcto";
+            	cout << "\nInicio de sesion exitoso." << endl;
+            
+              int a;
+              cout<<" \n!Bienvenido Alumno!"<<endl;
+              cout<<"1.opcion1"<<endl;
+              cout<<"2.opcion2"<<endl;
+              cout<<"3.opcion3"<<endl;
+              cin>>a;
         
